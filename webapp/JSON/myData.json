@@ -1,0 +1,33 @@
+{
+
+	"ISorBS": [{
+		"value": "Balance Sheet"
+	}, {
+		"value": "Income Statement"
+	}],
+	"AccountClassification": [{
+		"value": "Asset"
+	}, {
+		"value": "Cost"
+	}, {
+		"value": "Liabilities"
+	}, {
+		"value": "Other Income and expenses"
+	}, {
+		"value": "Revenue"
+	}, {
+		"value": "Stockholders Equity"
+	}],
+	"Status" :[
+		{
+			"value" : "Active"
+		},
+		{
+			"value" : "Inactive"
+		},
+		{
+			"value" : "All"
+		}
+		]
+
+}

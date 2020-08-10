@@ -1,0 +1,34 @@
+{
+    "application": {
+        "id": "",
+        "title": "GlAccountsWiki.GlAccountsWiki.Murphy-OutSystem-1",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#outsystemglwiki-Display",
+        "navigationComponentName": "GlAccountsWiki.GlAccountsWiki",
+        "intentSemanticObject": "outsystemglwiki",
+        "intentAction": "Display",
+        "html5ApplicationName": "outsystemglwiki",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "248b13e6-3ed2-4239-8e65-068a44d88339-1571825388475"
+        ],
+        "contentPackages": [
+            "3b464b59-cf23-4a08-872e-56a404e07811-1571916887145"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "GL Accounts Wiki",
+        "subtitle": "",
+        "searchKeywords": "GL Accounts Wiki,",
+        "displayIconUrl": "sap-icon://accounting-document-verification",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}
