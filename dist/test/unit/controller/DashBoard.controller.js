@@ -1,0 +1,1 @@
+sap.ui.define(["GlAccountsWiki/GlAccountsWiki/controller/DashBoard.controller"],function(o){"use strict";QUnit.module("DashBoard Controller");QUnit.test("I should test the DashBoard controller",function(t){var n=new o;n.onInit();t.ok(n)})});

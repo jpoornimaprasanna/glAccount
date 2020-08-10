@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/test/Opa5"],function(e){"use strict";var s="DashBoard";e.createPageObjects({onTheAppPage:{actions:{},assertions:{iShouldSeeTheApp:function(){return this.waitFor({id:"app",viewName:s,success:function(){e.assert.ok(true,"The DashBoard view is displayed")},errorMessage:"Did not find the DashBoard view"})}}}})});

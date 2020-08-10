@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/UIComponent","sap/ui/Device","GlAccountsWiki/GlAccountsWiki/model/models"],function(i,e,t){"use strict";return i.extend("GlAccountsWiki.GlAccountsWiki.Component",{metadata:{manifest:"json"},init:function(){i.prototype.init.apply(this,arguments);this.getRouter().initialize();this.setModel(t.createDeviceModel(),"device")}})});

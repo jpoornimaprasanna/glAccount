@@ -1,0 +1,170 @@
+{
+    "resources": [
+        {
+            "name": "util/BoxContainerList-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/BaseController.js"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "util/powerbi.js"
+        },
+        {
+            "name": "util/powerBiControls.js"
+        },
+        {
+            "name": "util/plotly.js"
+        },
+        {
+            "name": "util/htmlcanvas.js"
+        },
+        {
+            "name": "util/formatter.js"
+        },
+        {
+            "name": "util/BoxRenderer.js"
+        },
+        {
+            "name": "util/BoxContainerRenderer.js"
+        },
+        {
+            "name": "util/BoxContainerListRenderer.js"
+        },
+        {
+            "name": "util/BoxContainerList.js"
+        },
+        {
+            "name": "util/BoxContainer.js"
+        },
+        {
+            "name": "util/Box.js"
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "controller/details.controller.js"
+        },
+        {
+            "name": "controller/DashBoard.controller.js"
+        },
+        {
+            "name": "JSON/myData.json"
+        },
+        {
+            "name": "controller/App.controller.js"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "manifest-bundle.zip"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "util/powerbi-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "util/powerBiControls-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "util/plotly-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "util/htmlcanvas-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "util/formatter-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "util/BoxRenderer-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "util/BoxContainerRenderer-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "util/BoxContainerListRenderer-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "util/BoxContainer-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "util/Box-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "model/models-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/details-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/DashBoard-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/BaseController-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/App-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "Component-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "../../sap-ui-version.json"
+        },
+        {
+            "name": "neo-app.json"
+        },
+        {
+            "name": "di.code-validation.core_issues.json"
+        },
+        {
+            "name": "view/details.view.xml"
+        },
+        {
+            "name": "view/DashBoard.view.xml"
+        },
+        {
+            "name": "view/App.view.xml"
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "css/fonts.css"
+        },
+        {
+            "name": "css/boxstyles.css"
+        },
+        {
+            "name": "index.html"
+        }
+    ]
+}
