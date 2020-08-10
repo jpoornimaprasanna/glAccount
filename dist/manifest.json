@@ -1,0 +1,127 @@
+{
+    "_version": "1.12.0",
+    "sap.app": {
+        "id": "GlAccountsWiki.GlAccountsWiki",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "title": "{{appTitle}}",
+        "description": "{{appDescription}}",
+        "sourceTemplate": {
+            "id": "ui5template.basicSAPUI5ApplicationProject",
+            "version": "1.40.12"
+        }
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+            "icon": "",
+            "favIcon": "",
+            "phone": "",
+            "phone@2": "",
+            "tablet": "",
+            "tablet@2": ""
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        },
+        "fullWidth": true
+    },
+    "sap.ui5": {
+        "flexEnabled": false,
+        "rootView": {
+            "viewName": "GlAccountsWiki.GlAccountsWiki.view.App",
+            "type": "XML",
+            "async": true,
+            "id": "App"
+        },
+        "dependencies": {
+            "minUI5Version": "1.60",
+            "libs": {
+                "sap.ui.layout": {},
+                "sap.ui.core": {},
+                "sap.m": {}
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "GlAccountsWiki.GlAccountsWiki.i18n.i18n"
+                }
+            },
+            "dashBoardModel": {
+                "type": "sap.ui.model.json.JSONModel"
+            },
+            "glAccountModel": {
+                "type": "sap.ui.model.json.JSONModel"
+            },
+            "data": {
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "JSON/myData.json"
+            }
+        },
+        "resources": {
+            "css": [
+                {
+                    "uri": "css/style.css"
+                },
+                {
+                    "uri": "css/boxstyles.css"
+                },
+                {
+                    "uri": "css/fonts.css"
+                }
+            ]
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "viewType": "XML",
+                "async": true,
+                "viewPath": "GlAccountsWiki.GlAccountsWiki.view",
+                "controlAggregation": "pages",
+                "controlId": "idoutsystemApp",
+                "clearControlAggregation": false
+            },
+            "routes": [
+                {
+                    "name": "details",
+                    "pattern": "details",
+                    "target": [
+                        "details"
+                    ]
+                },
+                {
+                    "name": "Dashboard",
+                    "pattern": "",
+                    "target": [
+                        "Dashboard"
+                    ]
+                }
+            ],
+            "targets": {
+                "details": {
+                    "viewType": "XML",
+                    "viewName": "details"
+                },
+                "Dashboard": {
+                    "viewType": "XML",
+                    "viewName": "DashBoard"
+                }
+            }
+        }
+    },
+    "sap.platform.hcp": {
+        "uri": "webapp",
+        "_version": "1.1.0"
+    }
+}

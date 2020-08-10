@@ -1,0 +1,32 @@
+<mvc:View controllerName="GlAccountsWiki.GlAccountsWiki.controller.DashBoard" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m" xmlns:tnt="sap.tnt">
+	<Page showHeader="false" class="crtPageBGClass" enableScrolling="false">
+		<content>
+			<tnt:ToolPage id="idoutsystemToolPage" sideExpanded="false">
+				<tnt:sideContent>
+					<tnt:SideNavigation class=" crtIconSizeSideNav iopV2SidePanelBgColor iopV2SidePanelNoBorder iopV2SidePanelRightBorder"
+						id="idOutsysytemSideNav" selectedItem="Master1" itemSelect="handleNav">
+						<tnt:NavigationList id="appsNavList"
+							class="iopV2SidePanelActive iopV2SidePanelTextIconColor iopV2SidePanelSelected iopV2SidePanelBgColor iopV2SidePanelNoBorder iopV2SidePanelMargin">
+							<tnt:NavigationListItem key="dashboard" icon="sap-icon://bbyd-dashboard" text="{i18n>dash}"/>
+						</tnt:NavigationList>
+						<tnt:footer >
+							<tnt:NavigationList id="appsNavList1" class="iopV2SidePanelTextIconColor iopV2SidePanelBgColor iopV2SidePanelNoBorder iopV2SidePanelMargin">
+								<tnt:NavigationListItem tooltip="{= ${dashboardModel>/isLock} === false? 'Unlock Panel' : ''}" key="Lock" id="idLockicon" enabled="true"
+									icon="{= ${dashboardModel>/isLock} === false? 'sap-icon://locked' : 'sap-icon://unlocked'}"
+									text="{= ${dashboardModel>/isLock} === false? '' : 'Lock Panel'}"></tnt:NavigationListItem>
+							</tnt:NavigationList>
+						</tnt:footer>
+					</tnt:SideNavigation>
+				</tnt:sideContent>
+				<tnt:mainContents>
+					<NavContainer id="crtNavCon" width="100%" height="100%">
+						<Page showHeader="false" enableScrolling="false" class="crtPageBGClass" id="Master1" >
+							<mvc:XMLView viewName="GlAccountsWiki.GlAccountsWiki.view.details"/>
+						</Page>
+					</NavContainer>
+				</tnt:mainContents>
+			</tnt:ToolPage>
+		</content>
+	</Page>
+</mvc:View>

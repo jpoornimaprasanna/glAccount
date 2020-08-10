@@ -1,0 +1,137 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout"
+	controllerName="GlAccountsWiki.GlAccountsWiki.controller.details" displayBlock="true" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:tnt="sap.tnt">
+	<!--<App>-->
+	<!--	<pages>-->
+	<!--		<Page class="iopV2whiteBackground " showHeader="false" enableScrolling="false">-->
+	<VBox>
+		<Panel id="idFilterPanel" expandable="true" expanded="{dashBoardModel>/panelExpanded}" class="iopFontClass" width="100%">
+			<headerToolbar>
+				<Toolbar>
+					<ObjectStatus text="Filter" state="None"></ObjectStatus>
+					<ToolbarSpacer></ToolbarSpacer>
+				</Toolbar>
+			</headerToolbar>
+			<content>
+				<l:Grid defaultSpan="L2 M6 S12" width="100%" class="sapUiSmallMarginTop">
+					<l:content>
+						<VBox>
+							<Label text="{i18n>IS}" design="Bold"/>
+							<ComboBox visible="true" items="{glAccountModel>/combodata/balanceTypeList}" class="PaginatorComboStyle sapUiSizeCompact" width="100%"
+								enabled="true" editable="{}" selectionChange="onSearch" id="balanceTypeId" selectedKey="{glAccountModel>/balanceType}">
+								<core:Item key="{glAccountModel>balanceType}" text="{glAccountModel>balanceType}"/>
+							</ComboBox>
+							<!--onSelectionChangeIS-->
+						</VBox>
+						<VBox>
+							<Label text="{i18n>ACC_CLASS}" design="Bold"/>
+							<ComboBox visible="true" items="{glAccountModel>/combodata/accountGroupList}" id="accountGroupId"
+								class="PaginatorComboStyle sapUiSizeCompact" width="100%" enabled="true" editable="{}" selectionChange="onSearch"
+								selectedKey="{glAccountModel>/accountGroup}">
+								<!--onSelectionChangeAcc_Class-->
+								<core:Item key="{glAccountModel>accountGroup}" text="{glAccountModel>accountGroup}"/>
+							</ComboBox>
+						</VBox>
+						<VBox>
+							<Label text="{i18n>ACC_ROLL}" design="Bold"/>
+							<!--<Input value="{glAccountModel>/AccRoll}" class="sapUiSizeCompact osAlignSearchButtonClass" submit="accountRollupChange"-->
+							<!--	liveChange="onSearch"/>-->
+							<SearchField value="{glAccountModel>/AccRoll}" placeholder="" liveChange="onSearch" showSearchButton="false"
+								class="sapUiSizeCompact osAlignSearchButtonClass"></SearchField>
+						</VBox>
+						<VBox>
+							<Label text="{i18n>GL}" design="Bold"/>
+							<!--<Input value="{glAccountModel>/gl}" class="sapUiSizeCompact osAlignSearchButtonClass" submit="glAccountChange" liveChange="onSearch"/>-->
+							<SearchField value="{glAccountModel>/gl}" placeholder="" liveChange="onSearch" showSearchButton="false"
+								class="sapUiSizeCompact osAlignSearchButtonClass"></SearchField>
+						</VBox>
+						<VBox>
+							<Label text="{i18n>ACC_NAME}" design="Bold"/>
+							<!--<Input value="{glAccountModel>/AccName}" class="sapUiSizeCompact osAlignSearchButtonClass" submit="accountNameChange"-->
+							<!--	liveChange="onSearch"/>-->
+							<SearchField value="{glAccountModel>/AccName}" placeholder="" liveChange="onSearch" showSearchButton="false"
+								class="sapUiSizeCompact osAlignSearchButtonClass"></SearchField>
+						</VBox>
+						<VBox>
+							<Label text="{i18n>ACC_DESC}" design="Bold"/>
+							<!--<Input value="{glAccountModel>/AccDesc}" class="sapUiSizeCompact osAlignSearchButtonClass" submit="accountDescriptionChange"-->
+							<!--	liveChange="onSearch"/>-->
+							<SearchField value="{glAccountModel>/AccDesc}" placeholder="" liveChange="onSearch" showSearchButton="false"
+								class="sapUiSizeCompact osAlignSearchButtonClass"></SearchField>
+						</VBox>
+					</l:content>
+				</l:Grid>
+			</content>
+		</Panel>
+		<Panel expandable="false" expanded="true" class="iopFontClass" width="100%">
+			<headerToolbar>
+				<Toolbar class="paddingStyle">
+					<ObjectStatus text="{dashBoardModel>/headerText}" state="None"></ObjectStatus>
+					<VBox >
+						<HBox >
+							<Link href="mailto:neeraj.Agarwal@incture.com" text="Click to Submit questions or corrections"/>
+						</HBox>
+						<HBox >
+							<Text text="This Wiki updates nightly. Last Updated: "/>
+							<Text
+								text="{parts:[{path:'glAccountModel>/data/lastupdatedAt'}], formatter:'GlAccountsWiki.GlAccountsWiki.util.formatter.dateFormatter' , type: 'sap.ui.model.type.Date', formatOptions: { pattern: 'yyyy/MMM/dd' } }"/>
+						</HBox>
+					</VBox>
+					<ToolbarSpacer></ToolbarSpacer>
+					<ComboBox visible="true" id="idStatus" class="sapUiSizeCompact" enabled="true" editable="{}" selectionChange="onSelectionState"
+						selectedKey="{glAccountModel>/statusActive}">
+						<!--items="{data>/Status}"-->
+						<!--selectedKey="{glAccountModel>/statusActive}"-->
+						<!--<core:Item key="{DialogModel>buissnessUnit}" text="{DialogModel>buissnessUnit}"/>-->
+						<core:Item key="{glAccountModel>/statusActive}" text="Active"/>
+						<core:Item key="{glAccountModel>/statusActive}" text="InActive"/>
+						<core:Item key="{glAccountModel>/statusActive}" text="All"/>
+					</ComboBox>
+					<Button visible="true" icon="sap-icon://download" text="{i18n>EXPORT}" type="Default" press="onPressExport"
+						class=" sapUiSizeCompact btnStyle exportbtnStyle marginStyle"/>
+				</Toolbar>
+			</headerToolbar>
+			<content>
+				<ScrollContainer height="{= ${dashBoardModel>/panelExpanded} === true? '65vh' : '80vh' }" vertical="true"
+					class="iopDowntimeTypeHeader iopWellVisitScrollBorder sapUiTinyMarginBottom">
+					<Table sticky="ColumnHeaders" growingThreshold="100" busyIndicatorDelay="0" growing="true" busy="false"
+						items="{glAccountModel>/data/glAccountsDtoList}" class="iopFontClass alarmTableHeader" width="100%" alternateRowColors="true" visible="true"
+						id="glTableId">
+						<columns>
+							<Column>
+								<Text class="iopFontClass iopAlarmListTextClass iopRepTitleClass" text="{i18n>IS}"/>
+							</Column>
+							<Column>
+								<Text class="iopFontClass iopAlarmListTextClass iopRepTitleClass" text="{i18n>ACC_CLASS}"/>
+							</Column>
+							<Column>
+								<Text class="iopFontClass iopAlarmListTextClass iopRepTitleClass" text="{i18n>ACC_ROLL}"/>
+							</Column>
+							<Column>
+								<Text class="iopFontClass iopAlarmListTextClass iopRepTitleClass" text="{i18n>GL}"/>
+							</Column>
+							<Column>
+								<Text class="iopFontClass iopAlarmListTextClass iopRepTitleClass" text="{i18n>ACC_NAME}"/>
+							</Column>
+							<Column>
+								<Text class="iopFontClass iopAlarmListTextClass iopRepTitleClass" text="{i18n>ACC_DESC}"/>
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem type="Active">
+								<cells>
+									<Text class="iopFontClass iopAlarmListTextClass" text="{glAccountModel>balanceSheetAccount}"/>
+									<Text class="iopFontClass iopAlarmListTextClass" text="{glAccountModel>glAccountGroup}"/>
+									<Text class="iopFontClass iopAlarmListTextClass" text="{glAccountModel>tdID0001}"/>
+									<Text class="iopFontClass iopAlarmListTextClass" text="{glAccountModel>accountNumber}"/>
+									<Text class="iopFontClass iopAlarmListTextClass" text="{glAccountModel>accountDesc}"/>
+									<Text class="iopFontClass iopAlarmListTextClass" text="{glAccountModel>tdID0002}"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</ScrollContainer>
+			</content>
+		</Panel>
+	</VBox>
+</mvc:View>

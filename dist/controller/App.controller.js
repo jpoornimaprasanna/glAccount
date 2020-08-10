@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/core/IconPool"],function(n,o){"use strict";return n.extend("GlAccountsWiki.GlAccountsWiki.controller.App",{onInit:function(){}})});

@@ -1,0 +1,560 @@
+/*!
+ * UI development toolkit for HTML5 (OpenUI5)
+ * (c) Copyright 2009-2018 SAP SE or an SAP affiliate company.
+ * Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+ */
+
+
+/*!
+ * UI development toolkit for HTML5 (OpenUI5)
+ * (c) Copyright 2009-2018 SAP SE or an SAP affiliate company.
+ * Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+ */
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL1 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(1n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL1 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(1n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL10 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(10n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL10 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(10n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL11 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(11n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL11 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(11n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL12 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(12n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL12 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(12n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL2 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(2n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL2 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(2n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL3 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(3n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL3 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(3n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL4 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(4n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL4 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(4n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL5 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(5n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL5 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(5n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL6 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(6n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL6 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(6n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL7 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(7n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL7 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(7n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL8 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(8n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL8 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(8n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL9 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(9n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL9 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(9n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM1 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(1n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM1 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(1n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM10 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(10n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM10 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(10n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM11 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(11n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM11 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(11n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM2 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(2n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM2 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(2n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM3 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(3n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM3 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(3n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM4 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(4n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM4 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(4n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM5 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(5n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM5 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(5n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM6 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(6n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM6 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(6n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM7 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(7n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM7 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(7n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM8 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(8n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM8 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(8n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM9 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(9n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM9 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(9n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS1 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(1n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS1 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(1n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS10 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(10n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS10 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(10n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS11 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(11n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS11 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(11n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS12 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(12n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS12 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(12n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS2 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(2n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS2 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(2n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS3 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(3n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS3 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(3n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS4 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(4n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS4 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(4n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS5 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(5n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS5 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(5n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS6 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(6n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS6 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(6n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS7 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(7n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS7 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(7n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS8 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(8n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS8 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(8n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS9 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(9n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS9 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(9n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL1 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(1n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL1 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(1n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL10 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(10n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL10 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(10n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL11 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(11n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL11 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(11n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL12 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(12n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL12 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(12n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL2 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(2n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL2 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(2n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL3 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(3n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL3 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(3n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL4 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(4n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL4 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(4n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL5 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(5n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL5 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(5n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL6 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(6n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL6 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(6n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL7 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(7n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL7 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(7n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL8 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(8n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL8 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(8n),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL9 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(9n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL9 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(9n) {
+    margin-right: 0
+}
+
+.sapTntBoxContainerList>.sapMListHdrTBar,
+.sapTntBoxContainerList>.sapMListHdrText {
+    margin-bottom: .5rem
+}
+
+.sapTntBoxContainerList .sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped>.sapMGHLI {
+    background: 0 0;
+    border: none;
+    padding-top: .25rem
+}
+
+.sapTntBoxContainerList .sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped>.sapMGHLI .sapMGHLITitle {
+    font-size: 1.125rem;
+    color: #333
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList .sapTntBoxContainerGrid {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-gap: .5rem 2.5rem;
+    margin-bottom: .5rem
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList .sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped {
+    grid-template-rows: 3rem
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList .sapTntBoxContainerGrid>.sapMGHLI {
+    grid-column: 1/-1
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS1 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 0 * .5rem)/ 1), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS2 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 1 * .5rem)/ 2), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS3 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 2 * .5rem)/ 3), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS4 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 3 * .5rem)/ 4), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS5 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 4 * .5rem)/ 5), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS6 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 5 * .5rem)/ 6), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS7 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 6 * .5rem)/ 7), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS8 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 7 * .5rem)/ 8), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS9 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 8 * .5rem)/ 9), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS10 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 9 * .5rem)/ 10), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS11 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 10 * .5rem)/ 11), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS12 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 11 * .5rem)/ 12), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM1 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 0 * .5rem)/ 1), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM2 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 1 * .5rem)/ 2), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM3 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 2 * .5rem)/ 3), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM4 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 3 * .5rem)/ 4), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM5 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 4 * .5rem)/ 5), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM6 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 5 * .5rem)/ 6), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM7 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 6 * .5rem)/ 7), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM8 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 7 * .5rem)/ 8), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM9 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 8 * .5rem)/ 9), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM10 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 9 * .5rem)/ 10), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM11 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 10 * .5rem)/ 11), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM12 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 11 * .5rem)/ 12), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL1 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 0 * .5rem)/ 1), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL2 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 1 * .5rem)/ 2), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL3 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 2 * .5rem)/ 3), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL4 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 3 * .5rem)/ 4), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL5 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 4 * .5rem)/ 5), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL6 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 5 * .5rem)/ 6), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL7 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 6 * .5rem)/ 7), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL8 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 7 * .5rem)/ 8), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL9 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 8 * .5rem)/ 9), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL10 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 9 * .5rem)/ 10), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL11 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 10 * .5rem)/ 11), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL12 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 11 * .5rem)/ 12), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL1 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 0 * .5rem)/ 1), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL2 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 1 * .5rem)/ 2), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL3 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 2 * .5rem)/ 3), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL4 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 3 * .5rem)/ 4), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL5 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 4 * .5rem)/ 5), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL6 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 5 * .5rem)/ 6), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL7 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 6 * .5rem)/ 7), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL8 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 7 * .5rem)/ 8), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL9 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 8 * .5rem)/ 9), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL10 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 9 * .5rem)/ 10), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL11 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 10 * .5rem)/ 11), 1fr))
+}
+
+html:not([data-sap-ui-browser^=ie]) .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL12 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid {
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 11 * .5rem)/ 12), 1fr))
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS1 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 0 * .5rem - .1px)/ 1)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS2 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 1 * .5rem - .1px)/ 2)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS3 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 2 * .5rem - .1px)/ 3)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS4 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 3 * .5rem - .1px)/ 4)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS5 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 4 * .5rem - .1px)/ 5)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS6 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 5 * .5rem - .1px)/ 6)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS7 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 6 * .5rem - .1px)/ 7)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS8 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 7 * .5rem - .1px)/ 8)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS9 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 8 * .5rem - .1px)/ 9)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS10 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 9 * .5rem - .1px)/ 10)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS11 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 10 * .5rem - .1px)/ 11)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeS.sapTntBoxContainerSpanS12 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 11 * .5rem - .1px)/ 12)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM1 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 0 * .5rem - .1px)/ 1)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM2 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 1 * .5rem - .1px)/ 2)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM3 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 2 * .5rem - .1px)/ 3)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM4 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 3 * .5rem - .1px)/ 4)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM5 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 4 * .5rem - .1px)/ 5)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM6 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 5 * .5rem - .1px)/ 6)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM7 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 6 * .5rem - .1px)/ 7)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM8 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 7 * .5rem - .1px)/ 8)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM9 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 8 * .5rem - .1px)/ 9)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM10 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 9 * .5rem - .1px)/ 10)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM11 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 10 * .5rem - .1px)/ 11)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM12 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 11 * .5rem - .1px)/ 12)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM12 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid.sapTntBoxContainerGridGrouped .sapTntBox:nth-of-type(12n+1),
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeM.sapTntBoxContainerSpanM12 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid:not(.sapTntBoxContainerGridGrouped) .sapTntBox:nth-of-type(12n) {
+    margin-right: 0
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL1 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 0 * .5rem - .1px)/ 1)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL2 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 1 * .5rem - .1px)/ 2)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL3 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 2 * .5rem - .1px)/ 3)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL4 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 3 * .5rem - .1px)/ 4)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL5 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 4 * .5rem - .1px)/ 5)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL6 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 5 * .5rem - .1px)/ 6)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL7 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 6 * .5rem - .1px)/ 7)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL8 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 7 * .5rem - .1px)/ 8)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL9 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 8 * .5rem - .1px)/ 9)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL10 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 9 * .5rem - .1px)/ 10)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL11 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 10 * .5rem - .1px)/ 11)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeL.sapTntBoxContainerSpanL12 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 11 * .5rem - .1px)/ 12)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL1 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 0 * .5rem - .1px)/ 1)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL2 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 1 * .5rem - .1px)/ 2)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL3 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 2 * .5rem - .1px)/ 3)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL4 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 3 * .5rem - .1px)/ 4)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL5 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 4 * .5rem - .1px)/ 5)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL6 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 5 * .5rem - .1px)/ 6)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL7 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 6 * .5rem - .1px)/ 7)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL8 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 7 * .5rem - .1px)/ 8)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL9 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 8 * .5rem - .1px)/ 9)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL10 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 9 * .5rem - .1px)/ 10)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL11 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 10 * .5rem - .1px)/ 11)
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBoxContainerList.sapTntBoxContainerSizeXL.sapTntBoxContainerSpanXL12 .sapTntBoxContainerRelativeWidth.sapTntBoxContainerGrid .sapTntBox {
+    width: calc((100% - 11 * .5rem - .1px)/ 12)
+}
+
+.sapTntBox {
+	padding: 0;
+    border: none !important;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    /*background: #000;*/
+}
+
+.sapTntBox:hover{
+    /*background: #494848;*/
+}
+
+.sapTntBox .sapMText{
+	/*color: #fff;*/
+}
+
+.sapTntBox.sapMLIB.sapMLIBSelected{
+	/*background: #494848;*/
+}
+
+.sapTntBox>.sapMLIBContent {
+    height: 100%
+}
+
+html[data-sap-ui-browser^=ie] .sapTntBox {
+    display: -ms-inline-flexbox;
+    vertical-align: top;
+    margin: 0 .5rem .5rem 0
+}
