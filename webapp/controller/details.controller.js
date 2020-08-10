@@ -20,6 +20,7 @@ sap.ui.define([
 		 * @memberOf GlAccountsWiki.GlAccountsWiki.view.masterViz1
 		 */
 		formatter: Formatter,
+
 		onInit: function () {
 			var glAccountModel = new JSONModel();
 			this.getOwnerComponent().setModel(glAccountModel, "glAccountModel");
@@ -875,8 +876,8 @@ sap.ui.define([
 			var oTableArray = [];
 			var oData = this.getView().getModel("glAccountModel").getProperty("/data/glAccountsDtoList");
 			for (var i = 0; i < oIndices.length; i++) {
-					var oRowData = oData[oIndices[i]];
-					oTableArray.push(oRowData);
+				var oRowData = oData[oIndices[i]];
+				oTableArray.push(oRowData);
 			}
 			oExportModel.setData({
 				"results": oTableArray
